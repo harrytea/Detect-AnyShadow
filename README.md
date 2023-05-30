@@ -1,5 +1,6 @@
 # Detect-AnyShadow
 
+[Paper Link](https://arxiv.org/abs/2305.16698)
 
 Detect-AnyShadow is a tool for detecting shadows in videos. With very little user assistance, DAS can detect shadows throughout the whole video. It is built upon segment anything [(Paper)](https://arxiv.org/abs/2304.02643) and we have fine-tuned SAM to enable it to detect shadows.
 
@@ -47,7 +48,18 @@ For test ViSha Dataset, put the testing data in `dataset`, list the data as foll
 
 ## :book: Citation
 
-coming soon
+If you find our work useful in your research or applications, please cite our article using the following BibTex.
+
+```
+@misc{wang2023detect,
+      title={Detect Any Shadow: Segment Anything for Video Shadow Detection}, 
+      author={Yonghui Wang and Wengang Zhou and Yunyao Mao and Houqiang Li},
+      year={2023},
+      eprint={2305.16698},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 
 ## :blush: Acknowledge
