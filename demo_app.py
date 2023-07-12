@@ -16,12 +16,12 @@ from sam import sam_model_registry
 from sam.utils.transforms import ResizeLongestSide
 
 from tool.mask_tool import mask_painter
-from lstn.tools.eval import get_parser
-from lstn.networks.managers.evaluator import Evaluator
+from lstn.tools.demo_eval import get_parser
+from lstn.networks.managers.eval_demo import Evaluator
 
 
 # initial sam
-sam_checkpoint = "./checkpoints/finetune.pth"  # 41
+sam_checkpoint = "./checkpoints/chk_sam/finetune.pth"  # 41
 model_type = "vit_b"
 # path = "/data/wangyh/data4/Datasets/shadow/video_new/visha4/test"
 sam_model = sam_model_registry[model_type](checkpoint=sam_checkpoint)

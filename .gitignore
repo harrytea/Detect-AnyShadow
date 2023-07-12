@@ -2,3 +2,9 @@ __pycache__/
 .vscode/
 .DS_Store/
 .git/
+# .checkpoints/
+
+
+t-10000
+s-65000
+b-20000

@@ -1,4 +1,4 @@
-from lstn.networks.models.lstn import LSTN
+from networks.models.lstn import LSTN
 
 
 def build_vos_model(name, cfg, **kwargs):

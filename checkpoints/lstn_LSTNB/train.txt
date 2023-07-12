@@ -1,0 +1,10 @@
+I:0, LR:0.00002, Ref(Prev): L 0.562 IoU 15.0%, Curr1: L 0.560 IoU 12.4%, Curr2: L 0.571 IoU 11.1%, Curr3: L 0.569 IoU 11.1%, Curr4: L 0.556 IoU 13.8%
+I:20, LR:0.00002, Ref(Prev): L 0.392 IoU 43.7%, Curr1: L 0.376 IoU 45.3%, Curr2: L 0.371 IoU 45.4%, Curr3: L 0.370 IoU 47.4%, Curr4: L 0.373 IoU 46.4%
+I:40, LR:0.00002, Ref(Prev): L 0.248 IoU 58.9%, Curr1: L 0.263 IoU 60.5%, Curr2: L 0.254 IoU 62.0%, Curr3: L 0.253 IoU 64.2%, Curr4: L 0.251 IoU 63.6%
+I:60, LR:0.00002, Ref(Prev): L 0.232 IoU 65.8%, Curr1: L 0.231 IoU 68.3%, Curr2: L 0.231 IoU 67.7%, Curr3: L 0.237 IoU 66.5%, Curr4: L 0.244 IoU 63.0%
+I:80, LR:0.00002, Ref(Prev): L 0.205 IoU 69.2%, Curr1: L 0.200 IoU 65.4%, Curr2: L 0.221 IoU 61.7%, Curr3: L 0.217 IoU 63.3%, Curr4: L 0.216 IoU 63.8%
+I:100, LR:0.00002, Ref(Prev): L 0.145 IoU 76.6%, Curr1: L 0.164 IoU 76.3%, Curr2: L 0.161 IoU 74.9%, Curr3: L 0.168 IoU 77.6%, Curr4: L 0.139 IoU 77.4%
+I:120, LR:0.00002, Ref(Prev): L 0.174 IoU 74.6%, Curr1: L 0.171 IoU 73.5%, Curr2: L 0.185 IoU 70.2%, Curr3: L 0.157 IoU 73.7%, Curr4: L 0.163 IoU 72.6%
+I:140, LR:0.00003, Ref(Prev): L 0.132 IoU 81.7%, Curr1: L 0.136 IoU 82.4%, Curr2: L 0.146 IoU 79.0%, Curr3: L 0.143 IoU 78.5%, Curr4: L 0.140 IoU 79.9%
+I:160, LR:0.00003, Ref(Prev): L 0.151 IoU 70.1%, Curr1: L 0.176 IoU 64.7%, Curr2: L 0.165 IoU 65.7%, Curr3: L 0.173 IoU 65.4%, Curr4: L 0.180 IoU 66.5%
+I:0, LR:0.00002, Ref(Prev): L 1.044 IoU 18.8%, Curr1: L 1.058 IoU 17.7%, Curr2: L 1.048 IoU 17.3%, Curr3: L 1.031 IoU 17.8%, Curr4: L 1.038 IoU 18.6%

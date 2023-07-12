@@ -6,4 +6,4 @@ class ModelConfig(DefaultModelConfig):
         super().__init__()
         self.MODEL_NAME = 'LSTNB'
 
-        self.MODEL_LSAB_NUM = 2
+        self.MODEL_LSAB_NUM = 3

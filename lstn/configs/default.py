@@ -23,7 +23,7 @@ class DefaultEngineConfig():
         self.DATA_RANDOMFLIP = 0.5
 
         # load pretrain network
-        self.PRETRAIN_MODEL = './pretrain_model/mobilenet_v2.pth'
+        self.PRETRAIN_MODEL = './lstn/pretrain_model/mobilenet_v2.pth'
 
         # train step
         self.TRAIN_TOTAL_STEPS = 100000
@@ -51,7 +51,7 @@ class DefaultEngineConfig():
         self.TRAIN_LR_UPDATE_STEP = 1
         self.TRAIN_AUX_LOSS_WEIGHT = 1.0
         self.TRAIN_AUX_LOSS_RATIO = 1.0
-        self.TRAIN_OPT = 'adamw'
+        self.TRAIN_OPT = 'adamw'  # ["adamw", "sgd"]
         self.TRAIN_SGD_MOMENTUM = 0.9
         self.TRAIN_GPUS = 4
         self.TRAIN_BATCH_SIZE = 16  # # # # #
@@ -74,7 +74,7 @@ class DefaultEngineConfig():
         self.TRAIN_LSAB_ST_DROPOUT = 0.
 
         # about log
-        self.TRAIN_IMGLOG_STEP = 50  # image记录
+        self.TRAIN_IMGLOG_STEP = 500  # log image every x steps
         self.TRAIN_LOG_STEP = 20
         self.TRAIN_SAVE_STEP = 5000
 
@@ -108,7 +108,7 @@ class DefaultEngineConfig():
         self.DIR_RESULT = os.path.join('./checkpoints', self.EXP_NAME)
         self.DIR_CKPT = os.path.join(self.DIR_RESULT, 'ckpt')
         self.DIR_EMA_CKPT = os.path.join(self.DIR_RESULT, 'ema_ckpt')
-        self.DIR_IMG_LOG = './img_logs'
+        self.DIR_IMG_LOG = './img_logs_lstn'
         self.DIR_EVALUATION = './results'
 
         for path in [

@@ -1,4 +1,4 @@
-from lstn.networks.engines.lstn_engine import LSTNEngine, LSTNInferEngine
+from networks.engines.lstn_engine import LSTNEngine, LSTNInferEngine
 
 
 def build_engine(name, phase='train', **kwargs):
