@@ -118,13 +118,12 @@ our prediction [results](https://pan.baidu.com/s/1EFXuvbQ8wnn_KT1a1aCcTw) (code:
 If you find our work useful in your research or applications, please cite our article using the following BibTex.
 
 ```
-@misc{wang2023detect,
-      title={Detect Any Shadow: Segment Anything for Video Shadow Detection}, 
-      author={Yonghui Wang and Wengang Zhou and Yunyao Mao and Houqiang Li},
-      year={2023},
-      eprint={2305.16698},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{wang2023detect,
+  title={Detect any shadow: Segment anything for video shadow detection},
+  author={Wang, Yonghui and Zhou, Wengang and Mao, Yunyao and Li, Houqiang},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2023},
+  publisher={IEEE}
 }
 ```
 
