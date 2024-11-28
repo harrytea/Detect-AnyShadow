@@ -1,8 +1,8 @@
 # Detect-AnyShadow
 
-[Our Paper](https://arxiv.org/abs/2305.16698)
+[![Paper](https://img.shields.io/badge/Paper-ArXiv-red)](https://arxiv.org/abs/2305.16698) [![IEEE Paper](https://img.shields.io/badge/IEEE-TCSVT-blue)](https://ieeexplore.ieee.org/document/10267997)
 
-Detect-AnyShadow (DAS) is a tool for detecting shadows in videos. With very little user interaction, DAS can detect shadows throughout the whole video. It is built upon segment anything model (SAM) [「Paper」](https://arxiv.org/abs/2304.02643) and we have fine-tuned SAM to enable it to detect shadows. Then we leverage a long short-term network (LSTN) to enable the network for video shadow detection.
+Detect-AnyShadow (DAS) is a tool for detecting shadows in videos. With very little user interaction, DAS can detect shadows throughout the whole video. It is built upon segment anything model (SAM) and we have fine-tuned SAM to enable it to detect shadows. Then we leverage a long short-term network (LSTN) to enable the network for video shadow detection.
 
 
 ## Demo Tutorial
@@ -92,18 +92,15 @@ I:100, LR:0.00002, Ref(Prev): L 0.145 IoU 76.6%, Curr1: L 0.164 IoU 76.3%, Curr2
 For test ViSha Dataset, put the testing data in `dataset`, list the data as follows, and run `python test.py`. The shadow mask will be saved in `results/lstn_xxxx/xxx`.
 
 ```shell
-- test
-    - images
-        - video1
-            - xx1.jpg
-            - xx2.jpg
-            - xx3.jpg
-            ...
-    - labels
-        - video1
-            - xx1.png
-        - video2
-            - xx2.png
+test/
+├── images/
+│   └── video1/
+│       ├── frame1.jpg
+│       ├── frame2.jpg
+│       └── ...
+└── labels/
+    └── video1/
+        └── frame1.png
 ```
 
 our prediction [results](https://pan.baidu.com/s/1EFXuvbQ8wnn_KT1a1aCcTw) (code: uhaq) is here.
